@@ -1,0 +1,41 @@
+---
+import "./style.css";
+import { LuFigma } from "react-icons/lu";
+import { FaHeart } from "react-icons/fa";
+import { FaArrowDown } from "react-icons/fa6";
+const imagen = "https://magician.design/assets/images/magic-hero.jpg";
+---
+
+<section class="h-[99vh] bg-[#8E48FF]">
+  <div class="grid place-items-center gap-[3.25rem]">
+    <h1 class="text-6xl text-[#fff] flex justify-center">Titulo</h1>
+    <b class="flex justify-center text-[#a2a0a0]">Subtitulo</b>
+    <button
+      class="text-[#fff] outline-none flex items-center gap-3 p-2 h-auto w-[6rem] rounded-lg gradientButton hover:scale-110 hover:ease-in-out transition-all duration-[.1s] hover:rotate-2"
+    >
+      <LuFigma class="scale-110" />
+      boton
+    </button>
+    <div class="p-[3rem]">
+      <img
+        class="h-auto w-[100%] min-w-[200px] max-w-[496px] rounded-3xl"
+        src={imagen}
+        alt=""
+      />
+    </div>
+  </div>
+  <div class="flex flex-col md:flex-row gap-5 justify-center">
+    <button
+      class="hover:scale-110 hover:ease-in-out transition-all duration-[.1s] gap-2 flex items-center border-[#b6b3b3] text-white font-bold p-2 border-2 rounded-xl"
+    >
+      <FaHeart class="text-red-700" />
+      1.k likes</button
+    >
+    <button
+      class="hover:scale-110 hover:ease-in-out transition-all duration-[.1s] gap-2 flex items-center border-[#b6b3b3] border-2 p-2 font-bold rounded-xl text-white"
+    >
+      <FaArrowDown class="text-green-500" />
+      33k installs</button
+    >
+  </div>
+</section>

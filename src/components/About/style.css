@@ -1,0 +1,7 @@
+.imagenFondo {
+  background-image: url("https://magician.design/assets/images/magic-hero.jpg");
+}
+
+.gradientButton {
+  background-image: linear-gradient(135deg, rgba(91, 230, 172, 1) 0%, rgba(25, 143, 94, 1) 100%);
+}
